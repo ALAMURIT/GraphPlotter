@@ -34,8 +34,6 @@ class MainActivity : AppCompatActivity() {
         plotButton.setOnClickListener {
             SetLineChartData()
         }
-
-
     }
     fun GetCoordinates(){
         var xCoord = xIn.text.toString().toFloat()
